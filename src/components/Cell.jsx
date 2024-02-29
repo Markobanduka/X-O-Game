@@ -32,7 +32,7 @@ function Cell({ id, cell, cells, setCells, firstGo, setFirstGo, winner }) {
 
   return (
     <div className="square" id={id} onClick={!winner ? handleGame : null}>
-      <div className={cell} cla></div>
+      <div className={cell}></div>
     </div>
   );
 }
